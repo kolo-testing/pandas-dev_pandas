@@ -15,7 +15,7 @@ from typing import (
 
 import numpy as np
 
-from pandas._libs import lib
+from pandas import _lib as lib
 
 from pandas.core.dtypes.common import (
     is_bool,
